@@ -1,31 +1,6 @@
 #!/usr/bin/php
 <?php
 
-namespace Acme\Console\Command;
-
-
-use Symfony\Component\Console\Command\Command;
-use Symfony\Component\Console\Input\InputArgument;
-use Symfony\Component\Console\Input\InputInterface;
-use Symfony\Component\Console\Output\OutputInterface;
-
-class main extends Command
-{
-	protected function configure()
-	{
-	$this
-		->addArgument('ulazni')	
-		->addArgument('izlazni')
-	;
-	}
-	
-	protected function execute(InputInterface $input, OutputInterface $output)
-	{
-		$ulazni = $input->getArgument('ulazni');
-		$izlazni =	
-	}
-
-
 //Kreiranje klase poligon,koja sadrzi 2 polja i 2 funkcije
 
 class Poligon{
