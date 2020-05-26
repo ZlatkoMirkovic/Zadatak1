@@ -1,0 +1,11 @@
+$data=$poli->poligoni;
+foreach($data as $i){
+	foreach($i as $property1=>$value1){
+		foreach($value1 as $j){
+			foreach($j as $property2=>$value2){
+			 print" $property2 : $value2 ";
+				
+			}			
+		}
+	}
+}prolaz kroz json fajl
